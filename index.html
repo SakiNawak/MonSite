@@ -1,51 +1,78 @@
+<!DOCTYPE html>
 <html>
-	<head><title>SakiNawak Site</title>
-	<style>
-header {
-    display: table;
-    width: 100%;
-    table-layout: fixed;
-    border-spacing: 0 0;
-	background-color: #333;
-	}
-body {
-padding: 0;
- margin: 0;
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SakiWii</title>
+<style>
+.articles {
+    display: inline-block;
+    width: 40%;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-  border-spacing: 0 0;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.text {
-	text-align: center;
-}
-	</style>
-	</head>
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css" crossorigin="anonymous">
+</head>
 <body>
-	<header>
-	<div id="banner" align="center">
-<img src="images/logo.png" style="padding:10px;"height="40px" align="center" >
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" height="50" alt="">
+                 </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="http://wii.sakiwii.ml">
+                        <img src="images/WSC.png" width="250" alt=""></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+              </nav>
+    <div class="text" align="center">
+    <br>
+    <br>
+    <img src="images/Welcome.png" width="400px">
+    </div>
+<div class="col-lg-25 col-md-5 col-sm-35 col-xs-12">
+<div class="articles">
+<p align="center">Sites</p>
+<div class="card" style="width: 18rem;">
+<img src="images/News1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fausse Chaîne boutique Wii</h5>
+          <p class="card-text">La Fausse Chaîne boutique Wii permet de se souvenir de la Chaîne boutique Wii !<br><img src="images/loading.gif"</p>
+          <a href="http://wii.sakiwii.Ml" class="btn btn-primary">Accéder à la Chaîne !
+          </a>
+        </div>
+      </div>
 </div>
-	<ul>
-	<li><a href="http://wii.sakiwii.ml"><img src="images/WSC.png" style="padding:20px;" width="190px" align="left" ></a>
-	</li>
-	</ul>
-</header>
-	<div class="text">
-	<p style="font-size: 30px;"><img src="images/Welcome.png" width="400px" ></p>
-	<p><br><br><img src="images/info.png" width="500px" ></p>
+</div>
+          </div>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 </body>
+</html>
